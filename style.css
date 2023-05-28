@@ -1,0 +1,101 @@
+@import url('https://font.googleapis.com/css2?family=Cantarell.ital@0;1&family=Space+Grotesk:wght@300&display=swap');
+
+@font-face{
+    font-family: 'cantarell';
+    src: url(police\Cantarell-Regular.ttf);
+}
+
+:root{
+    --white-color: #ffffff;
+    --pink-light: rgb(184, 169, 194);
+    --pink: #DF99F2;
+    --purple: rgb(90, 27, 119);
+    --blue: rgb(4, 28, 78);
+    --blue-dark; #021740;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+header{
+    background-image: url(Accueil\Pantherhome1..png);
+}
+
+
+
+/* design de la navigation */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+nav ul il a{
+    display: flex;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'cantarell';
+}
+
+.tete{
+    display: inline-flex;
+    float: right;
+    text-align: right;
+    margin-right: 20px;    
+}
+
+/* design de la partie accueil */
+
+#accueil{
+    color: black;
+    font-family: 'space grotesk';
+    font-weight: 300;
+}
+
+span{
+    float: left;
+    vertical-align: middle;
+    background-color: rgb(4, 28, 78);
+}
+
+span p{
+    margin: 20px;
+    padding: 20px;
+    width: 180px;
+    height: 30px;
+    text-align: left;
+}
+
+#black-panther img{
+    margin: 10px;
+}
+
+#naissance-prince{
+    font-family: 'space grotesk';
+}
+
+.prince{
+    float: right;
+}
+
+#hero-vengeur .slider-content p{
+    display: inline-flex;
+    float: right;
+}
+
+
+
